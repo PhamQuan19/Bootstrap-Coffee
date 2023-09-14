@@ -326,8 +326,92 @@ html ::-webkit-scrollbar{
     border-radius: 10px;
 }
 
-
-
-
-
 /* Our gallary end  */
+
+/* contact start  */
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, #b2744c 20% );
+    border-radius: 10px;
+}
+
+.heading6{
+    font-size: 30px;
+    padding-top: 70px;
+    font-weight: bold;
+    /* border-bottom: 2px solid #b2744c; */
+}
+
+.heading6 span{
+    color: #b2744c;
+}
+
+#contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+
+#contact input{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #b2744c;
+}
+
+#contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #b2744c;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#col{
+    width: 30%;
+    height: 56vh;
+    background: black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#contact #col p{
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:766px) {
+    #contact .container{
+        background: white;
+    }
+    #col{
+        width: 100%;
+        background: #b2744c;
+
+    }
+
+    #contact{
+        height: 150vh;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    #contact input{
+       width: 250px;
+    }
+  
+}
+/* contact end */
